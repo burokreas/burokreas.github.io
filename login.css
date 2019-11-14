@@ -1,0 +1,91 @@
+.login-container {
+	display: grid;
+	grid-template-columns: 35% 65%;
+	height: 100%;
+    background: #fff;
+}
+
+.login h2 {
+	font-size: 32px;
+	line-height: 36px;
+	margin-bottom: 20px;
+}
+
+.login-left {
+	background-image: -webkit-linear-gradient(315deg,#103040,#2e647e);
+	background-image: -o-linear-gradient(315deg,#103040,#2e647e);
+	background-image: linear-gradient(135deg,#103040,#2e647e);
+	background-repeat: repeat-x;
+	text-align: center;
+}
+
+.login-left p {
+	font-size: 18px;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.login-left a {
+	color: #fff;
+}
+
+.login-left a:hover {
+	color: #0af;
+}
+
+.login-left .button {
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+
+.login-left,
+.login-right {
+	padding: 80px;
+	color: #fff;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+
+	align-items: center;
+}
+
+.login-right p {
+	color: #000;
+}
+
+#wp-submit {
+	height: auto;
+	padding: 15px 0;
+	margin: 20px 0;
+	width: 100%;
+}
+
+.login form {
+	box-shadow: none;
+	padding: 0;
+}
+
+.login form .input, 
+.login input[type=\"text\"] {
+	padding: 15px;
+}
+
+@media only screen and (max-width: 1023px) {
+
+	.login-container {
+		display:flex;
+		flex-direction:column
+	}
+	#login-left {
+		order:-2
+	}
+	.login-right{
+		order:-1
+	}
+
+}
