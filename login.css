@@ -12,6 +12,7 @@
 }
 
 .login-left {
+	color: #fff;
 	background-image: -webkit-linear-gradient(315deg,#103040,#2e647e);
 	background-image: -o-linear-gradient(315deg,#103040,#2e647e);
 	background-image: linear-gradient(135deg,#103040,#2e647e);
@@ -42,7 +43,6 @@
 .login-left,
 .login-right {
 	padding: 80px;
-	color: #fff;
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
