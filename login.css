@@ -100,7 +100,7 @@ html body {
 
 	.login-left, 
 	.login-right {
-		padding: 30px;
+		padding: 30px 30px 100px 30px;
 	}
 
 }
