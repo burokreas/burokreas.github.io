@@ -93,6 +93,7 @@ html body {
 		padding: 100px 30px 100px 30px;
 	}
 	.login-right {
+		grid-row: 1;
 		padding: 30px 30px 100px 30px;
 	}
 
