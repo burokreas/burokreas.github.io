@@ -99,7 +99,7 @@ html body {
 @media only screen and (max-width: 768px) {
 
 	.login-left {
-		padding: 30px 100px 100px 30px;
+		padding: 100px 30px 100px 30px;
 	}
 	.login-right {
 		padding: 30px 30px 100px 30px;
