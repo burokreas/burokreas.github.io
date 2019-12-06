@@ -1,3 +1,7 @@
+html body {
+	background-color: #fff;
+}
+
 .login-container {
 	display: grid;
 	grid-template-columns: 35% 65%;
@@ -79,14 +83,24 @@
 @media only screen and (max-width: 1023px) {
 
 	.login-container {
-		display:flex;
-		flex-direction:column
+		display: flex;
+		flex-direction: column;
 	}
 	#login-left {
 		order:-2
 	}
 	.login-right{
-		order:-1
+		order:-1;
+		height: 100%;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+	.login-left, 
+	.login-right {
+		padding: 30px;
 	}
 
 }
