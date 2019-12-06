@@ -83,15 +83,11 @@ html body {
 @media only screen and (max-width: 1023px) {
 
 	.login-container {
-		flex-direction: column;
     	grid-template-columns: 100%;
 	}
-	#login-left {
-		order:-2
-	}
+
 	.login-right{
-		order:-1;
-		height: 100%;
+		border: 1px solid #000;
 	}
 
 }
