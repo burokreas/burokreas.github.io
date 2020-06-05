@@ -9,6 +9,10 @@ html body {
     background: #fff;
 }
 
+body.login div#login h1 a {
+	border-radius: 5px;
+}
+
 .login h2 {
 	font-size: 32px;
 	line-height: 36px;
@@ -75,9 +79,10 @@ html body {
 	border: none;
 }
 
-.login form .input, 
-.login input[type=\"text\"] {
-	padding: 15px;
+@media screen and (max-height: 550px) {
+	#login {
+		padding: 20px 2px;
+	}
 }
 
 @media only screen and (max-width: 1023px) {
@@ -97,4 +102,9 @@ html body {
 		padding: 30px 30px 100px 30px;
 	}
 
+}
+
+.login form .input, 
+.login input[type="text"] {
+	padding: 15px;
 }
