@@ -48,6 +48,10 @@ body.login div#login h1 a {
 	margin: 0 auto;
 }
 
+.language-switcher {
+	display: none;
+}
+
 .login-left,
 .login-right {
 	padding: 80px;
